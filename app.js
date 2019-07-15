@@ -43,10 +43,10 @@ app.use(function(err, req, res, next) {
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-//  password: "yourpassword",
-  database: "test"
+  host: "bptvzykaedlxzbpygomj-mysql.services.clever-cloud.com",
+  user: "umjdww487z1mw1qy",
+  password: "Id0KYgBuKIO0PBSgk5Dp",
+  database: "bptvzykaedlxzbpygomj"
 });
 
 con.connect(function(err) {
